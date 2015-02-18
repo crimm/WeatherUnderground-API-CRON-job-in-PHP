@@ -1,6 +1,7 @@
 # WeatherUnderground-API-CRON-job-in-PHP
-## As we know Weather Underground API is limited or costs so you want to Cron it out to cut down on your calls. This simple script creates a flat file for the public to access while you create it once an hour.
+### As we know Weather Underground API is limited or costs so you want to Cron it out to cut down on your calls. This simple script creates a flat file for the public to access while you create it once an hour.
 
+##Install
 - Drop this cron file in your /etc/cron.hourly
 - Check permissions and make sure it is executable by chmod +x cron.php
 - Add the path to your web server public folder
